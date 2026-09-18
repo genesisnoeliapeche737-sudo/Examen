@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web Sencilla</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Web</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a Mi Página</h1>
-        <p>Esta es una página sencilla, ordenada y responsive.</p>
-    </header>
-    <main>
-        <section id="info">
-            <h2>Más Información</h2>
-            <p id="info-text">Haz clic en el botón para cambiar este mensaje.</p>
-        </section>
-        <button id="action-btn">¡Haz clic aquí!</button>
-    </main>
-    <script src="script.js"></script>
+  <header class="hero">
+    <div class="contenedor">
+      <h1>Mi Página Web</h1>
+      <p>Una página sencilla creada con HTML y CSS.</p>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <section class="informacion">
+      <h2>Más información</h2>
+      <p>
+        Este proyecto fue creado para practicar la estructura de una página web
+        y aplicar estilos básicos de forma ordenada y responsive.
+      </p>
+
+      <a class="boton" href="#contacto">Conocer más</a>
+    </section>
+
+    <section id="contacto" class="detalle">
+      <h2>Sobre el proyecto</h2>
+      <p>
+        La página se adapta a distintos tamaños de pantalla y utiliza solamente
+        HTML y CSS.
+      </p>
+    </section>
+  </main>
 </body>
 </html>
